@@ -3,6 +3,13 @@
   "compilerOptions": {
     "types": ["jest"]
   },
-  "include": ["**/*.ts", "**/*.tsx"],
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "src/screens/SplashScreen.js",
+    "src/screens/HomeScreen.js",
+    "src/screens/CallScreen.js",
+    "src/navigation/AppNavigatorScreen.js"
+  ],
   "exclude": ["**/node_modules", "**/Pods"]
 }
